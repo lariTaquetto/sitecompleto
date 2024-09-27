@@ -1,0 +1,302 @@
+@font-face {
+    font-family: "android";
+    src: url(fonte/dumbledor/dum1/dum1.ttf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+header img{
+    width: 100%;
+}
+
+:root{
+   --cor0:#efaee0;
+   --cor1:#c697be;
+   --cor2:#900771;
+   --cor3:#85136a;
+   --cor4:#62265d;
+
+    --fonte-padrao : 'Times New Roman', Times, serif;
+    --fonte-destaque:"Bebas Neue", sans-serif;
+    --fonte-android :"android",cursiva;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom,var(--cor0),var(--cor2));
+    height: 200px;
+    text-align: center;
+    font-family: var(--fonte-android);
+}
+
+header h1{
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: .1rem;
+}
+
+header p{
+    font-size: var(--fonte-padrao);
+    color: white;
+    font-size: 1.2rem;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 25px;
+}
+
+nav a{
+     font-family: var(--fonte-padrao);
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 1.1em;
+    transition-duration: .5s;
+    
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 730px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 105px;
+}
+article{
+    margin-bottom: 200px;
+}
+
+main h1{
+    font-family: var(--fonte-android);
+    color: var(--cor3);
+    background-color:  var(--cor0);
+    font-size: 28px;
+}
+
+main h2{
+    font-family: var(--fonte-android);
+    color: var(--cor3);
+    background-color:  var(--cor0);
+    padding-left: 10px;
+    font-size: 28px;
+}
+.p{
+     font-size: 23px; 
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em; 
+    font-size: 1.1em;
+}
+
+main a{
+    text-decoration: none;
+    background-color: var(--cor0);
+    font-weight: lighter;
+    color: var(--cor3);
+    padding-right: 1px 5px;
+    font-size: 22px;
+}
+
+main a:hover{
+    color: var(--cor1);
+    text-decoration: underline;
+}
+main strong{
+    color: var(--cor0);
+}
+main img{
+    width: 70%;
+}
+footer{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer a{
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+.flor{
+    width: 100%;
+}
+.flor strong{
+    color: black;
+    font-size: 25px;
+}
+div.video{
+    background-color: var(--cor3);
+    margin: -158px 0px 30px 0px;
+    padding: 50px;
+    padding-bottom: 50%;
+    position: relative;
+    border-radius: 18px;
+}
+
+div.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+
+/* formulario */
+.inf{
+    padding: 30px;
+    margin: 30px;
+}
+ 
+/* Formulário do Cliente */
+.cliente{
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    padding: 17px;
+}
+ 
+form fieldset{
+    border: none;
+}
+ 
+button{
+    display: block;
+    width: 30%;
+    padding: 4px;
+    background: var(--cor0);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+}
+ 
+button:hover{
+    background: var(--cor1);
+ 
+}
+
+ 
+#reiniciar{
+    width: 100%;
+    margin: 12px;
+   
+}
+ 
+footer{
+    background: var(--cor4);
+    margin: 19px;
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+ 
+ */
+
+
+
+/* quiz */
+.quiz-section{
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: auto;
+    max-width: 700px;
+}
+ 
+.question{
+    text-align: justify;
+}
+#result{
+    text-align: center;
+    margin-top: -55px;
+}
+ 
+#enviar{
+    width: 100%;
+    margin: 12px;
+   
+}
+ 
+#reiniciar{
+    width: 100%;
+    margin: 12px;
+   
+}
+.botao{
+    margin: auto;
+}
+
+textarea{
+    /* Para certificar-se que todos os campos de texto tem as mesmas configurações de fonte */
+    font: 1em sans-serif;
+ 
+    /* Para dar o mesmo tamanho a todos os campos de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ 
+    /* Para harmonizar o look & feel das bordas nos campos de texto */
+    border: 1px solid #999;
+}
+ 
+ 
+
+textarea:focus{
+    /* Dar um pouco de destaques nos elementos ativos */
+    border-color: #000;
+}
+ 
+textarea{
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label */
+    vertical-align: top;
+ 
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 10em;
+ 
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+
+
+
+
