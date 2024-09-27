@@ -58,10 +58,6 @@ function disableOptions(questionName){
 }
 
 
-
-
-
- 
 function playSound() {
     let clickSound = document.getElementById('selecionasom');
     clickSound.play();
