@@ -36,6 +36,8 @@ function disableOptions(questionName){
     });
 }
  
+
+
 function disableOptions(questionName){
     let options = document.getElementsByName(questionName);
     options.forEach(option => {
@@ -45,19 +47,6 @@ function disableOptions(questionName){
     });
 }
  
-
-
-
-function disableOptions(questionName){
-    let options = document.getElementsByName(questionName);
-    options.forEach(option => {
-        if (!option.checked) {
-            option.disabled = true;
-        }
-    });
-}
-
-
 function playSound() {
     let clickSound = document.getElementById('selecionasom');
     clickSound.play();
@@ -75,6 +64,8 @@ function submitQuiz(){
         q8: "C" ,
         q9: "D" ,
         q10:"B" , 
+ 
+ 
         //Adicione as respostas corretas para as outras perguntas
     };
  
@@ -118,3 +109,11 @@ function responderNovamente(){
     options.forEach(option => option.disabled=false);
    
 }
+
+
+
+
+
+
+
+
